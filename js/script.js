@@ -20,10 +20,36 @@ Al click dell’utente sulle frecce verso l’alto o verso il basso, l’immagin
 3. Al momento giusto (ihihhi starà a voi capire quale) rispondete a questa domanda: “Quanti cicli servono?”
 */
 
-const itemsLeft = document.getElementsByClassName('item-left');
-console.log(itemsLeft);
 
-const itemsRight = document.getElementsByClassName('item-right');
+const items = [
+  'img/01.jpg',
+  'img/02.jpg',
+  'img/03.jpg',
+  'img/04.jpg',
+  'img/05.jpg'
+];
+
+const title = [
+  'Svezia',
+  'Svizzera',
+  'Gran Bretagna',
+  'Germania',
+  'Paradise'
+]
+
+const text = [
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.',
+  'Lorem ipsum',
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
+  'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
+]
+
+
+// const itemsLeft = document.getElementsByClassName('item-left');
+// console.log(itemsLeft);
+
+// const itemsRight = document.getElementsByClassName('item-right');
 //console.log(itemsRight);
 
 const prev = document.querySelector('.prev');
