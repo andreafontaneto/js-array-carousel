@@ -26,6 +26,7 @@
   display: none;
   height: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .slider-left .item.active{
@@ -34,6 +35,19 @@
 
 .slider-left img{
   width: 100%;
+}
+
+.slider-left .content{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: right;
+  padding: 20px;
+}
+
+.slider-left .content .title{
+  font-size: 20px;
 }
 
 /* slider right */
