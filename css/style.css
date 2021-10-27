@@ -22,14 +22,14 @@
   height: 300px;
 }
 
-.slider-left .item{
+.slider-left .item-left{
   display: none;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
 
-.slider-left .item.active{
+.slider-left .item-left.active{
   display: block;
 }
 
@@ -58,17 +58,17 @@
   position: relative;
 }
 
-.slider-right .item{
+.slider-right .item-right{
   width: 100%;
   height: calc(300px / 5);
 }
 
-.slider-right .item img{
+.slider-right .item-right img{
   width: 100%;
   height: 100%;
 }
 
-.slider-right .item.active{
+.slider-right .item-right.active{
   border: 2px solid white;
 }
 
