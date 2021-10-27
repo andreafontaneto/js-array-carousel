@@ -23,11 +23,29 @@ Al click dell’utente sulle frecce verso l’alto o verso il basso, l’immagin
 const itemsLeft = document.getElementsByClassName('item-left');
 console.log(itemsLeft);
 
-let counter = 0;
-// console.log(counter);
+const itemsRight = document.getElementsByClassName('item-right');
+//console.log(itemsRight);
 
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
-
 // console.log(prev);
 // console.log(next);
+
+let counter = 0;
+//console.log(counter);
+
+//console.log('item in base al counter',itemsLeft[counter]);
+
+prev.addEventListener('click',function(){
+  
+});
+
+next.addEventListener('click',function(){
+  counter++;
+  console.log(itemsLeft[counter]);
+
+  if(counter > itemsLeft[counter]){
+    counter = 0;
+  }
+
+});
