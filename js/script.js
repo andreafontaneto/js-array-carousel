@@ -19,3 +19,15 @@ Al click dell’utente sulle frecce verso l’alto o verso il basso, l’immagin
 
 3. Al momento giusto (ihihhi starà a voi capire quale) rispondete a questa domanda: “Quanti cicli servono?”
 */
+
+const itemsLeft = document.getElementsByClassName('item-left');
+console.log(itemsLeft);
+
+let counter = 0;
+// console.log(counter);
+
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+// console.log(prev);
+// console.log(next);
