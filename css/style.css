@@ -22,6 +22,20 @@
   background-color: cadetblue;
 }
 
+.slider-left .item{
+  display: none;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-left .item.active{
+  display: block;
+}
+
+.slider-left img{
+  width: 100%;
+}
+
 .slider-right{
   width: 20%;
   height: 300px;
