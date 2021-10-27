@@ -37,15 +37,24 @@ let counter = 0;
 //console.log('item in base al counter',itemsLeft[counter]);
 
 prev.addEventListener('click',function(){
-  
+  console.log(itemsLeft[counter]);
+
+  counter--;
+
+  if(counter < 0){
+    counter = itemsLeft.length - 1;
+  }
 });
 
 next.addEventListener('click',function(){
-  counter++;
+  
   console.log(itemsLeft[counter]);
 
-  if(counter > itemsLeft[counter]){
+  console.log(`${counter} > ${itemsLeft.length}`);
+
+  counter++;
+
+  if(counter > itemsLeft.length - 1){
     counter = 0;
   }
-
 });
