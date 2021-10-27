@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  width: 80%;
+  max-width: 1000px;
+  height: 100vh;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-left{
+  width: 80%;
+  height: 300px;
+  background-color: cadetblue;
+}
+
+.slider-right{
+  width: 20%;
+  height: 300px;
+  background-color: teal;
+}
