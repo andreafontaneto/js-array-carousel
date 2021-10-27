@@ -54,6 +54,10 @@
   height: 100%;
 }
 
+.slider-right .item.active{
+  border: 2px solid white;
+}
+
 /* arrow */
 
 .prev, .next{
